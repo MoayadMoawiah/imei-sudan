@@ -5,7 +5,11 @@ is_hidden = 0
 ==
 <?php
 function onSave(){
-    
+    $device = new Moayad\Imei\Models\Devices;
+    $device->imei = 
+    $device->brand = 
+    $device->model = 
+    $device->phone = 
 }
 
 function onSearch(){
@@ -26,7 +30,7 @@ function onSearch(){
                     أدخل رقم المعرف الدولي للجهاز (IMEI)، ثم أضغط على بحث
                     </p>
                     
-                    <form id="main-contact-form" name="contact-form" method="post" action="#">
+                    <form id="main-contact-form" name="contact-form" >
                     
                         <div class="form-group">
                             <input type="text" name="code" class="form-control" placeholder="رقم المعرف الدولي (IMEI)" required>
@@ -59,15 +63,15 @@ function onSearch(){
                         </div>
                         
                         <div class="form-group">
-                            <input type="text" name="code" class="form-control" placeholder="نوع الجهاز" required>
+                            <input type="text" name="brand" class="form-control" placeholder="نوع الجهاز" required>
                         </div>
                         
                         <div class="form-group">
-                            <input type="text" name="code" class="form-control" placeholder="الموديل" required>
+                            <input type="text" name="model" class="form-control" placeholder="الموديل" required>
                         </div>
                         
                         <div class="form-group">
-                            <input type="text" name="code" class="form-control" placeholder="رقم الهاتف للتواصل" required>
+                            <input type="text" name="phone" class="form-control" placeholder="رقم الهاتف للتواصل" required>
                         </div>
                         
                         
