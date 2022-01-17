@@ -1,0 +1,10 @@
+name: Status
+form: $/moayad/technicalsupport/models/status/fields.yaml
+modelClass: Moayad\TechnicalSupport\Models\Status
+defaultRedirect: moayad/technicalsupport/status
+create:
+    redirect: 'moayad/technicalsupport/status/update/:id'
+    redirectClose: moayad/technicalsupport/status
+update:
+    redirect: moayad/technicalsupport/status
+    redirectClose: moayad/technicalsupport/status

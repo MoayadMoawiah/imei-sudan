@@ -1,0 +1,10 @@
+name: Brand
+form: $/moayad/imei/models/brand/fields.yaml
+modelClass: Moayad\Imei\Models\Brand
+defaultRedirect: moayad/imei/brand
+create:
+    redirect: 'moayad/imei/brand/update/:id'
+    redirectClose: moayad/imei/brand
+update:
+    redirect: moayad/imei/brand
+    redirectClose: moayad/imei/brand

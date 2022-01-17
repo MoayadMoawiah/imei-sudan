@@ -1,0 +1,4 @@
+title: Supervisors
+modelClass: Moayad\Icp\Models\Supervisors
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,4 @@
+title: Infections
+modelClass: Moayad\Icp\Models\Infections
+toolbar:
+    buttons: reorder_toolbar

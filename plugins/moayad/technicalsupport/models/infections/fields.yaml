@@ -1,0 +1,83 @@
+fields:
+    section1:
+        label: 'Passengers status'
+        span: full
+        type: section
+    date:
+        label: 'Date picker'
+        span: auto
+        mode: date
+        type: datepicker
+    flight_no:
+        label: 'Flight No'
+        span: auto
+        type: text
+    airline:
+        label: Airline
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    supervisor:
+        label: Supervisor
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    section2:
+        label: 'Aircraft cleaning and disinfectantion status'
+        span: full
+        type: section
+    disinfectant_name:
+        label: 'Disinfectant Name'
+        span: auto
+        type: text
+    fileupload1:
+        label: 'PAX report & certificate Uplode'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    fileupload2:
+        label: 'Disinfectant Aviation Approval'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    fileupload3:
+        label: 'Disinfection Certificate Upload'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    fileupload4:
+        label: 'Last water Test report'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    section3:
+        label: 'Potable water status'
+        span: full
+        type: section
+    fileupload5:
+        label: 'Last vehicle disinfection report'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

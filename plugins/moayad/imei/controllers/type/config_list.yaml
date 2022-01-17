@@ -1,0 +1,12 @@
+list: $/moayad/imei/models/devicetype/columns.yaml
+modelClass: Moayad\Imei\Models\DeviceType
+title: Type
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'moayad/imei/type/update/:id'

@@ -1,0 +1,10 @@
+name: Airlines
+form: $/moayad/icp/models/airlines/fields.yaml
+modelClass: Moayad\Icp\Models\Airlines
+defaultRedirect: moayad/icp/airlines
+create:
+    redirect: 'moayad/icp/airlines/update/:id'
+    redirectClose: moayad/icp/airlines
+update:
+    redirect: moayad/icp/airlines
+    redirectClose: moayad/icp/airlines

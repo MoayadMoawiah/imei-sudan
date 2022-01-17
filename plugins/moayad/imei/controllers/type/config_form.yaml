@@ -1,0 +1,10 @@
+name: Type
+form: $/moayad/imei/models/devicetype/fields.yaml
+modelClass: Moayad\Imei\Models\DeviceType
+defaultRedirect: moayad/imei/type
+create:
+    redirect: 'moayad/imei/type/update/:id'
+    redirectClose: moayad/imei/type
+update:
+    redirect: moayad/imei/type
+    redirectClose: moayad/imei/type

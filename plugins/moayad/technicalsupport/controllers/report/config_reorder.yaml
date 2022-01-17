@@ -1,0 +1,4 @@
+title: Report
+modelClass: Moayad\TechnicalSupport\Models\Report
+toolbar:
+    buttons: reorder_toolbar

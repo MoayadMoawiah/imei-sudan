@@ -1,0 +1,24 @@
+plugin:
+    name: 'moayad.icp::lang.plugin.name'
+    description: 'moayad.icp::lang.plugin.description'
+    author: Moayad
+    icon: oc-icon-plane
+    homepage: ''
+navigation:
+    infection-control:
+        label: 'Infection Control Programm Form'
+        url: moayad/icp/infections
+        icon: icon-database
+        sideMenu:
+            side-menu-item:
+                label: 'Infection Form'
+                url: moayad/icp/infections
+                icon: icon-sitemap
+            side-menu-item2:
+                label: Airline
+                url: moayad/icp/airlines
+                icon: icon-plane
+            side-menu-item3:
+                label: Supervisor
+                url: moayad/icp/supervisors
+                icon: icon-user-plus

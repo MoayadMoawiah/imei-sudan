@@ -1,0 +1,10 @@
+name: Department
+form: $/moayad/technicalsupport/models/depertment/fields.yaml
+modelClass: Moayad\TechnicalSupport\Models\Depertment
+defaultRedirect: moayad/technicalsupport/department
+create:
+    redirect: 'moayad/technicalsupport/department/update/:id'
+    redirectClose: moayad/technicalsupport/department
+update:
+    redirect: moayad/technicalsupport/department
+    redirectClose: moayad/technicalsupport/department

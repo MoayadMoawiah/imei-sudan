@@ -1,0 +1,4 @@
+title: Airlines
+modelClass: Moayad\Icp\Models\Airlines
+toolbar:
+    buttons: reorder_toolbar

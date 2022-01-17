@@ -1,0 +1,4 @@
+title: Department
+modelClass: Moayad\TechnicalSupport\Models\Depertment
+toolbar:
+    buttons: reorder_toolbar

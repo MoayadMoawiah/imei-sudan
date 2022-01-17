@@ -1,0 +1,10 @@
+name: Situation
+form: $/moayad/imei/models/situation/fields.yaml
+modelClass: Moayad\Imei\Models\Situation
+defaultRedirect: moayad/imei/situation
+create:
+    redirect: 'moayad/imei/situation/update/:id'
+    redirectClose: moayad/imei/situation
+update:
+    redirect: moayad/imei/situation
+    redirectClose: moayad/imei/situation

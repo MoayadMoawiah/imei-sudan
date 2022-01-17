@@ -1,0 +1,10 @@
+name: Supervisors
+form: $/moayad/icp/models/supervisors/fields.yaml
+modelClass: Moayad\Icp\Models\Supervisors
+defaultRedirect: moayad/icp/supervisors
+create:
+    redirect: 'moayad/icp/supervisors/update/:id'
+    redirectClose: moayad/icp/supervisors
+update:
+    redirect: moayad/icp/supervisors
+    redirectClose: moayad/icp/supervisors

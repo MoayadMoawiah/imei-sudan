@@ -1,0 +1,5 @@
+fields:
+    name:
+        label: 'Full Name'
+        span: auto
+        type: text

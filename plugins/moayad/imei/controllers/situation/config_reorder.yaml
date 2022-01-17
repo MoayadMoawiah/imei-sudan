@@ -1,0 +1,4 @@
+title: Situation
+modelClass: Moayad\Imei\Models\Situation
+toolbar:
+    buttons: reorder_toolbar

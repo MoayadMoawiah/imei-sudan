@@ -1,0 +1,4 @@
+title: Profiel
+modelClass: Moayad\TechnicalSupport\Models\Profile
+toolbar:
+    buttons: reorder_toolbar

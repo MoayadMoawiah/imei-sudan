@@ -1,0 +1,17 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table moayad_imei_devices'
+    - builder_table_create_moayad_imei_devices.php
+1.0.3:
+    - 'Created table moayad_imei_brand'
+    - builder_table_create_moayad_imei_brand.php
+1.0.4:
+    - 'Created table moayad_imei_situation'
+    - builder_table_create_moayad_imei_situation.php
+1.0.5:
+    - 'Updated table moayad_imei_devices'
+    - builder_table_update_moayad_imei_devices.php
+1.0.6:
+    - 'Created table moayad_imei_device_type'
+    - builder_table_create_moayad_imei_device_type.php

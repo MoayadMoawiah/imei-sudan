@@ -1,0 +1,10 @@
+name: Type
+form: $/moayad/technicalsupport/models/type/fields.yaml
+modelClass: Moayad\TechnicalSupport\Models\Type
+defaultRedirect: moayad/technicalsupport/type
+create:
+    redirect: 'moayad/technicalsupport/type/update/:id'
+    redirectClose: moayad/technicalsupport/type
+update:
+    redirect: moayad/technicalsupport/type
+    redirectClose: moayad/technicalsupport/type

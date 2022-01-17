@@ -1,0 +1,26 @@
+columns:
+    id:
+        label: id
+        type: number
+    dept_id:
+        label: dept_id
+        type: number
+        select: name
+        relation: dept
+    phone:
+        label: phone
+        type: text
+    user_id:
+        label: user_id
+        type: number
+        select: name
+        relation: user
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime

@@ -1,0 +1,39 @@
+fields:
+    description:
+        label: description
+        size: ''
+        span: full
+        type: textarea
+    user:
+        label: user
+        nameFrom: id
+        descriptionFrom: description
+        span: auto
+        type: relation
+    phone:
+        label: phone
+        span: auto
+        type: text
+    type:
+        label: Type
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    status:
+        label: Statu
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    by_user:
+        label: by_user
+        span: auto
+        nameFrom: id
+        descriptionFrom: description
+        type: relation
+    solution:
+        label: Solution
+        size: ''
+        span: full
+        type: textarea

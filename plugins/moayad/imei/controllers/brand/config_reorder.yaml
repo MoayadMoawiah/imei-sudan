@@ -1,0 +1,4 @@
+title: Brand
+modelClass: Moayad\Imei\Models\Brand
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,28 @@
+plugin:
+    name: 'moayad.imei::lang.plugin.name'
+    description: 'moayad.imei::lang.plugin.description'
+    author: Moayad
+    icon: oc-icon-mobile-phone
+    homepage: ''
+navigation:
+    imei:
+        label: IMEI
+        url: moayad/imei/devices
+        icon: icon-life-ring
+        sideMenu:
+            device:
+                label: Device
+                url: moayad/imei/devices
+                icon: icon-mobile-phone
+            brand:
+                label: Brand
+                url: moayad/imei/brand
+                icon: icon-stop
+            type:
+                label: Type
+                url: moayad/imei/type
+                icon: icon-sitemap
+            situation:
+                label: Situation
+                url: moayad/imei/situation
+                icon: icon-star

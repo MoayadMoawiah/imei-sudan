@@ -1,0 +1,39 @@
+columns:
+    id:
+        label: id
+        type: number
+    user_id:
+        label: user_id
+        type: number
+        select: name
+        relation: user
+    description:
+        label: description
+        type: text
+    type_id:
+        label: type_id
+        type: number
+        select: name
+        relation: type
+    status_id:
+        label: status_id
+        type: number
+        select: name
+        relation: status
+    solution:
+        label: solution
+        type: text
+    by_user_id:
+        label: by_user_id
+        type: number
+        select: name
+        relation: by_user
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime

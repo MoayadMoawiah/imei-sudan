@@ -1,0 +1,21 @@
+fields:
+    user:
+        label: user
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    dept:
+        label: department
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    phone:
+        label: Phone
+        span: auto
+        type: text
+    name:
+        label: Name
+        span: auto
+        type: text

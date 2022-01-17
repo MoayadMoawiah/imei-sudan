@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table moayad_icp_airlines'
+    - builder_table_create_moayad_icp_airlines.php
+1.0.3:
+    - 'Created table moayad_icp_supervisors'
+    - builder_table_create_moayad_icp_supervisors.php
+1.0.4:
+    - 'Created table moayad_icp_infections'
+    - builder_table_create_moayad_icp_infections.php
+1.0.5:
+    - 'Updated table moayad_icp_airlines'
+    - builder_table_update_moayad_icp_airlines.php

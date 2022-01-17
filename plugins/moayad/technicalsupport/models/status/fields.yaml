@@ -1,0 +1,9 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    order_id:
+        label: order_id
+        span: auto
+        type: number

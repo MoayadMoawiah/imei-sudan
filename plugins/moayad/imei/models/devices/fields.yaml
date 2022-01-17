@@ -1,0 +1,33 @@
+fields:
+    imei:
+        label: Imei
+        span: auto
+        type: number
+    brand_id:
+        label: 'Brand id'
+        span: auto
+        type: relation
+    model:
+        label: Model
+        span: auto
+        type: text
+    type_id:
+        label: 'Type id'
+        span: auto
+        type: relation
+    situation_id:
+        label: 'Situation id'
+        span: auto
+        type: relation
+    phone:
+        label: Phone
+        span: auto
+        type: text
+    id_card:
+        label: 'Id card'
+        span: auto
+        type: text
+    created_at:
+        label: 'Created at'
+        span: auto
+        type: datepicker

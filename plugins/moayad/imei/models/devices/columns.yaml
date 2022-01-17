@@ -1,0 +1,34 @@
+columns:
+    id:
+        label: id
+        type: number
+    imei:
+        label: imei
+        type: number
+    brand_id:
+        label: brand_id
+        type: number
+    model:
+        label: model
+        type: text
+    type_id:
+        label: type_id
+        type: number
+    situation_id:
+        label: situation_id
+        type: number
+    phone:
+        label: phone
+        type: text
+    id_card:
+        label: id_card
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime

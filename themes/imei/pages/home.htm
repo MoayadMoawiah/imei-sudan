@@ -1,0 +1,84 @@
+title = "home"
+url = "/home"
+layout = "theme"
+is_hidden = 0
+==
+<?php
+function onSave(){
+    
+}
+
+function onSearch(){
+    
+}
+?>
+==
+{% partial 'slider' %}
+
+{% partial 'about' %}
+
+    <section id="cta" class="wow fadeIn" dir="rtl">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <h2>إبحث عن هاتفك المفقود</h2>
+                    <p>
+                    أدخل رقم المعرف الدولي للجهاز (IMEI)، ثم أضغط على بحث
+                    </p>
+                    
+                    <form id="main-contact-form" name="contact-form" method="post" action="#">
+                    
+                        <div class="form-group">
+                            <input type="text" name="code" class="form-control" placeholder="رقم المعرف الدولي (IMEI)" required>
+                        </div>
+                    
+                        
+                    </form>
+                </div>
+                <div class="col-sm-3 text-right">
+                    <a class="btn btn-primary btn-lg" href="#">بحث</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#cta-->
+    
+    <section id="cta" class="wow fadeIn" dir="rtl">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <h2>تسجيل جهاز مفقود</h2>
+                    <p>
+                    أدخل رقم المعرف الدولي للجهاز (IMEI)، ثم أضغط على حفظ
+                    </p>
+                    
+                    <form id="main-contact-form" name="contact-form" method="post" action="#">
+                    
+                        <div class="form-group">
+                            <input type="text" name="code" class="form-control" placeholder="رقم المعرف الدولي (IMEI)" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" name="code" class="form-control" placeholder="نوع الجهاز" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" name="code" class="form-control" placeholder="الموديل" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" name="code" class="form-control" placeholder="رقم الهاتف للتواصل" required>
+                        </div>
+                        
+                        
+                    </form>
+                </div>
+                <div class="col-sm-3 text-right">
+                    <a class="btn btn-primary btn-lg" href="#">حفظ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#cta-->
+    
+{% partial 'statistics' %}

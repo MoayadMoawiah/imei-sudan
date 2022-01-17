@@ -1,0 +1,10 @@
+name: Profiel
+form: $/moayad/technicalsupport/models/profile/fields.yaml
+modelClass: Moayad\TechnicalSupport\Models\Profile
+defaultRedirect: moayad/technicalsupport/profiel
+create:
+    redirect: 'moayad/technicalsupport/profiel/update/:id'
+    redirectClose: moayad/technicalsupport/profiel
+update:
+    redirect: moayad/technicalsupport/profiel
+    redirectClose: moayad/technicalsupport/profiel

@@ -1,0 +1,28 @@
+columns:
+    id:
+        label: id
+        type: number
+    date:
+        label: date
+        type: text
+    flight_no:
+        label: flight_no
+        type: text
+    airline_id:
+        label: airline_id
+        type: number
+    supervisor_id:
+        label: supervisor_id
+        type: number
+    disinfectant_name:
+        label: disinfectant_name
+        type: text
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
+    deleted_at:
+        label: deleted_at
+        type: datetime

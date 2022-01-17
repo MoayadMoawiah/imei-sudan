@@ -1,0 +1,10 @@
+name: Infections
+form: $/moayad/icp/models/infections/fields.yaml
+modelClass: Moayad\Icp\Models\Infections
+defaultRedirect: moayad/icp/infections
+create:
+    redirect: 'moayad/icp/infections/update/:id'
+    redirectClose: moayad/icp/infections
+update:
+    redirect: moayad/icp/infections
+    redirectClose: moayad/icp/infections

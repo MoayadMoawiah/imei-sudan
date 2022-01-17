@@ -1,0 +1,4 @@
+title: Devices
+modelClass: Moayad\Imei\Models\Devices
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,10 @@
+name: Report
+form: $/moayad/technicalsupport/models/report/fields.yaml
+modelClass: Moayad\TechnicalSupport\Models\Report
+defaultRedirect: moayad/technicalsupport/report
+create:
+    redirect: 'moayad/technicalsupport/report/update/:id'
+    redirectClose: moayad/technicalsupport/report
+update:
+    redirect: moayad/technicalsupport/report
+    redirectClose: moayad/technicalsupport/report
